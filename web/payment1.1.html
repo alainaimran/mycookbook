@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><payment1 class="1"></payment1></title>
+    <style>
+        .payment{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:darkcyan;
+            margin-left: 80px;
+
+        }
+        .padding{
+            float: left;
+            padding: 10px;
+            height: 20;
+            margin-left: 70px;
+            
+        }
+        .h{
+            
+            font-size:large;
+            margin-left: 80px;
+        }
+        .nameinput[type="text"] {
+           width: 800px;
+        }
+        .inline {
+        display: inline-block;
+        margin-right: 20px; 
+    }
+    </style>
+</head>
+<body style="background-color: rgb(247, 238, 227);">
+    
+<b><h2 class="payment" >PAYMENT INFORMATION</h2></b>
+
+    
+
+
+<form action="backend.php">
+    <b><div  class="h">
+        Payment Options
+    </div>
+</b>
+    <div class="padding">
+        Credit Card<input type="radio">
+        Debit Card<input type="radio">
+        </div>
+<br>
+<br>
+<br>
+<div class="h">
+   Name On Card
+   <br>
+   
+   <input type="text" class="nameinput" >
+    </div>
+<br>
+
+    <div class="h inline" >
+        Credit/Debit Card #
+        <br>
+        
+        <input type="text" >
+         </div>
+
+<div class="h inline">
+        CVV2 Number
+        <br>
+        <input type="text" >
+         </div>
+</form>
+<br>
+<b><h2 class="payment" >PERSONAL INFORMATION</h2></b>
+
+<form action="backend.php">
+    <div class="h">
+        Name 
+        <br>
+        
+        <input type="text" class="nameinput" >
+         </div>
+     <br>
+     <div class="h">
+        Phone Number
+        <br>
+        
+        <input type="text" class="nameinput" >
+         </div>
+     <br>
+
+
+</form>
+
+<table frame="above " border="2" align="center" style="background-color:rgb(245, 222, 214);" width="130" height="50">
+    <tr>
+        <td align="center">
+            <a href="recipe1.html" target="_blank" > Make Payment</a>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
